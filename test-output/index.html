@@ -1,0 +1,1090 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 9 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-ReqRes_Application">
+              <span class="suite-name border-failed">ReqRes Application</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-ReqRes_Application">
+                    <span>C:\seleinum_demos\APIDemo1\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-ReqRes_Application">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-ReqRes_Application">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-ReqRes_Application">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-ReqRes_Application">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-ReqRes_Application">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-ReqRes_Application">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods, 9 failed,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-ReqRes_Application" class="hide-methods failed suite-ReqRes_Application"> (hide)</a> <!-- hide-methods failed suite-ReqRes_Application -->
+                      <a href="#" panel-name="suite-ReqRes_Application" class="show-methods failed suite-ReqRes_Application"> (show)</a> <!-- show-methods failed suite-ReqRes_Application -->
+                    </span>
+                    <div class="method-list-content failed suite-ReqRes_Application">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ReqRes_Application" title="testcases.TC02_CheckLogin" hash-for-method="checkLoginWithinValidCredientials">checkLoginWithinValidCredientials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ReqRes_Application" title="testcases.TC03_CheckRegister" hash-for-method="checkRegisterWithunValidCredientials">checkRegisterWithunValidCredientials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ReqRes_Application" title="testcases.TC01_CheckCreateUser_Post" hash-for-method="createUserWithinValidAuth">createUserWithinValidAuth</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ReqRes_Application" title="testcases.TC01_CheckCreateUser_Post" hash-for-method="createUserWithinValidHeader">createUserWithinValidHeader</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ReqRes_Application" title="testcases.TC01_CheckCreateUser_Post" hash-for-method="createUserWithinValidMethod">createUserWithinValidMethod</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ReqRes_Application" title="testcases.TC01_CheckCreateUser_Post" hash-for-method="createUserWithinValidPath">createUserWithinValidPath</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ReqRes_Application" title="testcases.TC01_CheckCreateUser_Post" hash-for-method="createUserWithinValidQueryParameter">createUserWithinValidQueryParameter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ReqRes_Application" title="testcases.TC06_GetAllUsers_GET" hash-for-method="getAllUsersWithinValidMethod">getAllUsersWithinValidMethod</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ReqRes_Application" title="testcases.TC06_GetAllUsers_GET" hash-for-method="getAllUsersWithinValidPath">getAllUsersWithinValidPath</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-ReqRes_Application -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-ReqRes_Application" class="hide-methods passed suite-ReqRes_Application"> (hide)</a> <!-- hide-methods passed suite-ReqRes_Application -->
+                      <a href="#" panel-name="suite-ReqRes_Application" class="show-methods passed suite-ReqRes_Application"> (show)</a> <!-- show-methods passed suite-ReqRes_Application -->
+                    </span>
+                    <div class="method-list-content passed suite-ReqRes_Application">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ReqRes_Application" title="testcases.TC02_CheckLogin" hash-for-method="checkLoginWithValidCredientials">checkLoginWithValidCredientials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ReqRes_Application" title="testcases.TC03_CheckRegister" hash-for-method="checkRegisterWithValidCredientials">checkRegisterWithValidCredientials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ReqRes_Application" title="testcases.TC04_UpDateUser" hash-for-method="checkUpDateWithValidCredientials">checkUpDateWithValidCredientials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ReqRes_Application" title="testcases.TC05_DeleteUser" hash-for-method="checkUpDeleteData">checkUpDeleteData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ReqRes_Application" title="testcases.TC01_CheckCreateUser_Post" hash-for-method="createUserWithMaximumUserame">createUserWithMaximumUserame</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ReqRes_Application" title="testcases.TC01_CheckCreateUser_Post" hash-for-method="createUserWithMinimumUserame">createUserWithMinimumUserame</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ReqRes_Application" title="testcases.TC01_CheckCreateUser_Post" hash-for-method="createUserWithValidData">createUserWithValidData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ReqRes_Application" title="testcases.TC01_CheckCreateUser_Post" hash-for-method="createUserWithinEmptyUserame">createUserWithinEmptyUserame</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ReqRes_Application" title="testcases.TC06_GetAllUsers_GET" hash-for-method="getAllUsersWithValidParameters">getAllUsersWithValidParameters</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-ReqRes_Application -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-ReqRes_Application" class="panel ReqRes_Application">
+          <div class="suite-ReqRes_Application-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.TC02_CheckLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkLoginWithinValidCredientials">
+                  </a> <!-- checkLoginWithinValidCredientials -->
+                  <span class="method-name">checkLoginWithinValidCredientials</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;200&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at testcases.TC02_CheckLogin.checkLoginWithinValidCredientials(TC02_CheckLogin.java:43)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Check Login with invalid credientials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ReqRes_Application-class-failed -->
+          <div class="suite-ReqRes_Application-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.TC03_CheckRegister</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkRegisterWithunValidCredientials">
+                  </a> <!-- checkRegisterWithunValidCredientials -->
+                  <span class="method-name">checkRegisterWithunValidCredientials</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;200&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at testcases.TC03_CheckRegister.checkRegisterWithunValidCredientials(TC03_CheckRegister.java:42)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Check Register with unvalid credientials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ReqRes_Application-class-failed -->
+          <div class="suite-ReqRes_Application-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.TC01_CheckCreateUser_Post</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUserWithinValidAuth">
+                  </a> <!-- createUserWithinValidAuth -->
+                  <span class="method-name">createUserWithinValidAuth</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;401&gt; but was &lt;201&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at testcases.TC01_CheckCreateUser_Post.createUserWithinValidAuth(TC01_CheckCreateUser_Post.java:81)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Create new user with invalid autherization)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUserWithinValidHeader">
+                  </a> <!-- createUserWithinValidHeader -->
+                  <span class="method-name">createUserWithinValidHeader</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;201&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at testcases.TC01_CheckCreateUser_Post.createUserWithinValidHeader(TC01_CheckCreateUser_Post.java:92)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Create new user with invalid header)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUserWithinValidMethod">
+                  </a> <!-- createUserWithinValidMethod -->
+                  <span class="method-name">createUserWithinValidMethod</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;405&gt; but was &lt;200&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at testcases.TC01_CheckCreateUser_Post.createUserWithinValidMethod(TC01_CheckCreateUser_Post.java:45)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Create new user with invalid restful method)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUserWithinValidPath">
+                  </a> <!-- createUserWithinValidPath -->
+                  <span class="method-name">createUserWithinValidPath</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;404&gt; but was &lt;201&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at testcases.TC01_CheckCreateUser_Post.createUserWithinValidPath(TC01_CheckCreateUser_Post.java:57)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Create new user with invalid path)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUserWithinValidQueryParameter">
+                  </a> <!-- createUserWithinValidQueryParameter -->
+                  <span class="method-name">createUserWithinValidQueryParameter</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;201&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at testcases.TC01_CheckCreateUser_Post.createUserWithinValidQueryParameter(TC01_CheckCreateUser_Post.java:69)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Create new user with invalid query parameter)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ReqRes_Application-class-failed -->
+          <div class="suite-ReqRes_Application-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.TC06_GetAllUsers_GET</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAllUsersWithinValidMethod">
+                  </a> <!-- getAllUsersWithinValidMethod -->
+                  <span class="method-name">getAllUsersWithinValidMethod</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;405&gt; but was &lt;415&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at testcases.TC06_GetAllUsers_GET.getAllUsersWithinValidMethod(TC06_GetAllUsers_GET.java:46)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Get All Users with invalid Restful Method)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAllUsersWithinValidPath">
+                  </a> <!-- getAllUsersWithinValidPath -->
+                  <span class="method-name">getAllUsersWithinValidPath</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;404&gt; but was &lt;200&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at testcases.TC06_GetAllUsers_GET.getAllUsersWithinValidPath(TC06_GetAllUsers_GET.java:63)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Get All Users with invalid URL)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ReqRes_Application-class-failed -->
+          <div class="suite-ReqRes_Application-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC04_UpDateUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkUpDateWithValidCredientials">
+                  </a> <!-- checkUpDateWithValidCredientials -->
+                  <span class="method-name">checkUpDateWithValidCredientials</span>
+                  <em>
+(Check UpDate with valid credientials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ReqRes_Application-class-passed -->
+          <div class="suite-ReqRes_Application-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC02_CheckLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkLoginWithValidCredientials">
+                  </a> <!-- checkLoginWithValidCredientials -->
+                  <span class="method-name">checkLoginWithValidCredientials</span>
+                  <em>
+(Check Login with valid credientials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ReqRes_Application-class-passed -->
+          <div class="suite-ReqRes_Application-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC03_CheckRegister</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkRegisterWithValidCredientials">
+                  </a> <!-- checkRegisterWithValidCredientials -->
+                  <span class="method-name">checkRegisterWithValidCredientials</span>
+                  <em>
+(Check Register with valid credientials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ReqRes_Application-class-passed -->
+          <div class="suite-ReqRes_Application-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC05_DeleteUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkUpDeleteData">
+                  </a> <!-- checkUpDeleteData -->
+                  <span class="method-name">checkUpDeleteData</span>
+                  <em>
+(Check Delete the data)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ReqRes_Application-class-passed -->
+          <div class="suite-ReqRes_Application-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC01_CheckCreateUser_Post</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUserWithMaximumUserame">
+                  </a> <!-- createUserWithMaximumUserame -->
+                  <span class="method-name">createUserWithMaximumUserame</span>
+                  <em>
+(Create new user with Maxmimum username)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUserWithMinimumUserame">
+                  </a> <!-- createUserWithMinimumUserame -->
+                  <span class="method-name">createUserWithMinimumUserame</span>
+                  <em>
+(Create new user with invalid minimum username)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUserWithValidData">
+                  </a> <!-- createUserWithValidData -->
+                  <span class="method-name">createUserWithValidData</span>
+                  <em>
+(Create new user with valid data)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUserWithinEmptyUserame">
+                  </a> <!-- createUserWithinEmptyUserame -->
+                  <span class="method-name">createUserWithinEmptyUserame</span>
+                  <em>
+(Create new user with empty username)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ReqRes_Application-class-passed -->
+          <div class="suite-ReqRes_Application-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC06_GetAllUsers_GET</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAllUsersWithValidParameters">
+                  </a> <!-- getAllUsersWithValidParameters -->
+                  <span class="method-name">getAllUsersWithValidParameters</span>
+                  <em>
+(Get All Users with valid Parameters)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ReqRes_Application-class-passed -->
+        </div> <!-- panel ReqRes_Application -->
+        <div panel-name="test-xml-ReqRes_Application" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\seleinum_demos\APIDemo1\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;ReqRes Application&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;check user&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.TC01_CheckCreateUser_Post&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;createUserWithValidData&quot;/&gt;
+          &lt;include name=&quot;createUserWithinValidMethod&quot;/&gt;
+          &lt;include name=&quot;createUserWithinValidPath&quot;/&gt;
+          &lt;include name=&quot;createUserWithinValidQueryParameter&quot;/&gt;
+          &lt;include name=&quot;createUserWithinValidAuth&quot;/&gt;
+          &lt;include name=&quot;createUserWithinValidHeader&quot;/&gt;
+          &lt;include name=&quot;createUserWithinEmptyUserame&quot;/&gt;
+          &lt;include name=&quot;createUserWithMinimumUserame&quot;/&gt;
+          &lt;include name=&quot;createUserWithMaximumUserame&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.TC01_CheckCreateUser_Post --&gt;
+      &lt;class name=&quot;testcases.TC02_CheckLogin&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;checkLoginWithValidCredientials&quot;/&gt;
+          &lt;include name=&quot;checkLoginWithinValidCredientials&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.TC02_CheckLogin --&gt;
+      &lt;class name=&quot;testcases.TC03_CheckRegister&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;checkRegisterWithValidCredientials&quot;/&gt;
+          &lt;include name=&quot;checkRegisterWithunValidCredientials&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.TC03_CheckRegister --&gt;
+      &lt;class name=&quot;testcases.TC04_UpDateUser&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;checkUpDateWithValidCredientials&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.TC04_UpDateUser --&gt;
+      &lt;class name=&quot;testcases.TC05_DeleteUser&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;checkUpDeleteData&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.TC05_DeleteUser --&gt;
+      &lt;class name=&quot;testcases.TC06_GetAllUsers_GET&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;getAllUsersWithValidParameters&quot;/&gt;
+          &lt;include name=&quot;getAllUsersWithinValidMethod&quot;/&gt;
+          &lt;include name=&quot;getAllUsersWithinValidPath&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.TC06_GetAllUsers_GET --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- check user --&gt;
+&lt;/suite&gt; &lt;!-- ReqRes Application --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-ReqRes_Application" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for ReqRes Application</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">check user (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-ReqRes_Application" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for ReqRes Application</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">smoke test</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkLoginWithValidCredientials</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkLoginWithinValidCredientials</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkRegisterWithValidCredientials</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkRegisterWithunValidCredientials</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkUpDateWithValidCredientials</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkUpDeleteData</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">createUserWithMaximumUserame</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">createUserWithMinimumUserame</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">createUserWithValidData</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">createUserWithinEmptyUserame</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">createUserWithinValidAuth</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">createUserWithinValidHeader</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">createUserWithinValidMethod</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">createUserWithinValidPath</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">createUserWithinValidQueryParameter</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getAllUsersWithValidParameters</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getAllUsersWithinValidMethod</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getAllUsersWithinValidPath</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-ReqRes_Application" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for ReqRes Application</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_ReqRes_Application');
+function tableData_ReqRes_Application() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'createUserWithValidData')
+data.setCell(0, 2, 'testcases.TC01_CheckCreateUser_Post')
+data.setCell(0, 3, 3233);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'createUserWithinValidQueryParameter')
+data.setCell(1, 2, 'testcases.TC01_CheckCreateUser_Post')
+data.setCell(1, 3, 632);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'createUserWithinValidMethod')
+data.setCell(2, 2, 'testcases.TC01_CheckCreateUser_Post')
+data.setCell(2, 3, 612);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'checkRegisterWithValidCredientials')
+data.setCell(3, 2, 'testcases.TC03_CheckRegister')
+data.setCell(3, 3, 537);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'getAllUsersWithinValidPath')
+data.setCell(4, 2, 'testcases.TC06_GetAllUsers_GET')
+data.setCell(4, 3, 529);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'createUserWithinValidPath')
+data.setCell(5, 2, 'testcases.TC01_CheckCreateUser_Post')
+data.setCell(5, 3, 509);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'checkRegisterWithunValidCredientials')
+data.setCell(6, 2, 'testcases.TC03_CheckRegister')
+data.setCell(6, 3, 492);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'createUserWithMaximumUserame')
+data.setCell(7, 2, 'testcases.TC01_CheckCreateUser_Post')
+data.setCell(7, 3, 490);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'createUserWithinValidAuth')
+data.setCell(8, 2, 'testcases.TC01_CheckCreateUser_Post')
+data.setCell(8, 3, 485);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'createUserWithinValidHeader')
+data.setCell(9, 2, 'testcases.TC01_CheckCreateUser_Post')
+data.setCell(9, 3, 483);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'getAllUsersWithinValidMethod')
+data.setCell(10, 2, 'testcases.TC06_GetAllUsers_GET')
+data.setCell(10, 3, 482);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'createUserWithinEmptyUserame')
+data.setCell(11, 2, 'testcases.TC01_CheckCreateUser_Post')
+data.setCell(11, 3, 480);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'checkLoginWithValidCredientials')
+data.setCell(12, 2, 'testcases.TC02_CheckLogin')
+data.setCell(12, 3, 472);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'checkUpDateWithValidCredientials')
+data.setCell(13, 2, 'testcases.TC04_UpDateUser')
+data.setCell(13, 3, 468);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'createUserWithMinimumUserame')
+data.setCell(14, 2, 'testcases.TC01_CheckCreateUser_Post')
+data.setCell(14, 3, 466);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'checkLoginWithinValidCredientials')
+data.setCell(15, 2, 'testcases.TC02_CheckLogin')
+data.setCell(15, 3, 463);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'checkUpDeleteData')
+data.setCell(16, 2, 'testcases.TC05_DeleteUser')
+data.setCell(16, 3, 433);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'getAllUsersWithValidParameters')
+data.setCell(17, 2, 'testcases.TC06_GetAllUsers_GET')
+data.setCell(17, 3, 403);
+window.suiteTableData['ReqRes_Application']= { tableData: data, tableDiv: 'times-div-ReqRes_Application'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 11 seconds</span>
+              <div id="times-div-ReqRes_Application">
+              </div> <!-- times-div-ReqRes_Application -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-ReqRes_Application" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for ReqRes Application</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-ReqRes_Application" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">5 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.TC04_UpDateUser</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.TC02_CheckLogin</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.TC03_CheckRegister</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.TC05_DeleteUser</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.TC06_GetAllUsers_GET</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-ReqRes_Application" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TC01_CheckCreateUser_Post</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">createUserWithValidData</span>
+                <span class="method-start">493 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createUserWithinValidMethod</span>
+                <span class="method-start">3731 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createUserWithinValidPath</span>
+                <span class="method-start">4349 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createUserWithinValidQueryParameter</span>
+                <span class="method-start">4859 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createUserWithinValidAuth</span>
+                <span class="method-start">5493 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createUserWithinValidHeader</span>
+                <span class="method-start">5979 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createUserWithinEmptyUserame</span>
+                <span class="method-start">6463 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createUserWithMinimumUserame</span>
+                <span class="method-start">6943 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createUserWithMaximumUserame</span>
+                <span class="method-start">7410 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TC02_CheckLogin</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkLoginWithValidCredientials</span>
+                <span class="method-start">7901 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkLoginWithinValidCredientials</span>
+                <span class="method-start">8374 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TC03_CheckRegister</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkRegisterWithValidCredientials</span>
+                <span class="method-start">8839 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkRegisterWithunValidCredientials</span>
+                <span class="method-start">9377 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TC04_UpDateUser</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkUpDateWithValidCredientials</span>
+                <span class="method-start">9871 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TC05_DeleteUser</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkUpDeleteData</span>
+                <span class="method-start">10339 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TC06_GetAllUsers_GET</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getAllUsersWithValidParameters</span>
+                <span class="method-start">10773 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getAllUsersWithinValidMethod</span>
+                <span class="method-start">11176 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getAllUsersWithinValidPath</span>
+                <span class="method-start">11661 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="APIDemo1(failed)">
+    <classes>
+      <class name="testcases.TC06_GetAllUsers_GET">
+        <methods>
+          <include name="getAllUsersWithValidParameters"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.TC06_GetAllUsers_GET -->
+    </classes>
+  </test> <!-- APIDemo1(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

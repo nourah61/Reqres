@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ReqRes Application">
+    <test name="check user">
+        <classes>
+            <class name="testcases.TC01_CheckCreateUser_Post">
+                <methods>
+                    <include name="createUserWithValidData"/>
+                    <include name="createUserWithinValidMethod"/>
+                    <include name="createUserWithinValidPath"/>
+                    <include name="createUserWithinValidQueryParameter"/>
+                    <include name="createUserWithinValidAuth"/>
+                    <include name="createUserWithinValidHeader"/>
+                    <include name="createUserWithinEmptyUserame"/>
+                    <include name="createUserWithMinimumUserame"/>
+                    <include name="createUserWithMaximumUserame"/>
+                </methods>
+            </class>
+            <class name="testcases.TC02_CheckLogin">
+                <methods>
+                    <include name="checkLoginWithValidCredientials"/>
+                    <include name="checkLoginWithinValidCredientials"/>
+                </methods>
+            </class>
+            <class name="testcases.TC03_CheckRegister">
+                <methods>
+                    <include name="checkRegisterWithValidCredientials"/>
+                    <include name="checkRegisterWithunValidCredientials"/>
+                </methods>
+            </class>
+            <class name="testcases.TC04_UpDateUser">
+                <methods>
+                    <include name="checkUpDateWithValidCredientials"/>
+                </methods>
+            </class>
+            <class name="testcases.TC05_DeleteUser">
+                <methods>
+                    <include name="checkUpDeleteData"/>
+                </methods>
+            </class>
+            <class name="testcases.TC06_GetAllUsers_GET">
+                <methods>
+                    <include name="getAllUsersWithValidParameters"/>
+                    <include name="getAllUsersWithinValidMethod"/>
+                    <include name="getAllUsersWithinValidPath"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
